@@ -16,8 +16,7 @@ import tempfile
 import gtts
 import os
 
-# Ensure the Tesseract OCR executable path is correct
-pytesseract.pytesseract.tesseract_cmd = 'Tesseract/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = 'C:/Users/' + os.environ.get('USERNAME') + '/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
 
 ATOactive = False
 TTSactive = False
