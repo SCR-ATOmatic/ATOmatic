@@ -1,3 +1,7 @@
+> [!WARNING]
+> This is currently **BROKEN** since SCR updated their UI placement and design.
+
+
 # ATOmatic
 A semi-automatic OCR ATO rendition.
 
